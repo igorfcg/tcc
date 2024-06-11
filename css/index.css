@@ -1,0 +1,122 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  color: aliceblue;
+  background-color: black;
+  max-width: 1920px;
+  max-height: 1080px;
+}
+
+.logo{
+  color: rgb(238, 239, 240);
+  font-size: 28px;
+  display: flex;
+  margin-left: 1%;
+  text-align: center;
+  width: 100%;
+  font-family:"Montserrat", sans-serif;
+}
+.non{
+  color: aliceblue;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+.lista{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  width: 100%;
+  margin-left: 2%;
+}
+.sociais button{
+  transition: none; /* Remove todas as transições */
+  animation: none; 
+  background-color: black;
+  width: 30px;
+  height: 30px;
+}
+.social {
+  display: flex;
+  width: 25%;
+}
+.lista li{
+  display: inline-block;
+  margin-right: 10px;
+
+}
+header{
+  width: 100%;
+  height: 10%;
+  padding: 1cap;
+  display: inline;
+}
+.container{
+  margin:0 auto;
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  
+}
+.outras{
+  display: flex;
+      flex-direction: column; /* Define a direção dos itens como coluna (vertical) */
+      justify-content: flex-start; /* Alinha os itens à esquerda */
+      align-items: left; /* Centraliza os itens horizontalmente */
+      padding: 20px;
+      width: 243px;
+      
+}
+.box {
+  background-color: #6d6a67;
+  color: white;
+  padding: 20px;
+  margin: 10px 0; /* Espaçamento entre as caixas */
+  width: 19cap; /* Largura das caixas */
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none; /* Remove sublinhado do link */
+  
+}
+.clientes{
+
+  background-color: #f77f08;
+display: flex;
+flex-direction: column; /* Define a direção dos itens como coluna (vertical) */
+justify-content: flex-end; /* Alinha os itens à direita */
+align-items: right; /* Centraliza os itens horizontalmente */
+padding: 20px;
+width: 243px;
+border-radius: 4%;
+
+}
+
+.imagem{
+  width: 195px;
+height: 219px;
+top: 237px;
+left: 615px;
+gap: 0px;
+opacity: 0px;
+}
+.sas {
+  background-color: #6d6a67;
+  color: white;
+  padding: 20px;
+  margin: 10px 0; /* Espaçamento entre as caixas */
+  width: 19cap; /* Largura das caixas */
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none; /* Remove sublinhado do link */
+}
+/* .tudo {
+
+  display: inline-flexbox;
+  align-items: center;
+  justify-content: center;
+} */
+
