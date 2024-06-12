@@ -1,0 +1,22 @@
+.busca{
+
+    background-color: aliceblue;
+    color: black;
+    animation: none;
+}
+.buscab{
+    animation: none;
+}
+#list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: auto;
+    max-height: 80vh;
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 20cap;
+    width: 21cap;
+    -ms-overflow-style: none;  /* IE e Edge */
+    scrollbar-width: none;     /* Firefox */
+    }
