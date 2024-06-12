@@ -16,12 +16,11 @@
     margin: 40px;/* Espaçamento entre as caixas */ 
     width: 520px;
     height: 175px;
-    top: 388px;
-    left: 122px;
-    gap: 0px;
+    align-items: center;
     border-radius: 12px;
     opacity: 0px;
     text-align: center;
     text-decoration: none; /* Remove sublinhado do link */
-
+    font-size: 5vh ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }

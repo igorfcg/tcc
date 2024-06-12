@@ -6,6 +6,12 @@
 }
 .buscab{
     animation: none;
+    
+}
+.listados{
+    border-radius: 10px;
+    background-color: orange;
+    width: 10vh;
 }
 #list-container {
     display: flex;

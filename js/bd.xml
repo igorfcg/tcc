@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<produtos>
+    <produto>
+        <nome>Produto 1</nome>
+        <quantidade>10</quantidade>
+        <cor>Azul</cor>
+        <espessura>5mm</espessura>
+        <descrição>
+            <marca>Marca A</marca>
+            <codigoDeBarras>1234567890123</codigoDeBarras>
+        </descrição>
+    </produto>
+    <produto>
+        <nome>Produto 2</nome>
+        <quantidade>25</quantidade>
+        <cor>Vermelho</cor>
+        <espessura>3mm</espessura>
+        <informacoesAleatorias>
+            <marca>Marca B</marca>
+            <codigoDeBarras>9876543210987</codigoDeBarras>
+        </informacoesAleatorias>
+    </produto>
+    <produto>
+        <nome>Produto 3</nome>
+        <quantidade>15</quantidade>
+        <cor>Verde</cor>
+        <espessura>10mm</espessura>
+        <informacoesAleatorias>
+            <marca>Marca C</marca>
+            <codigoDeBarras>1122334455667</codigoDeBarras>
+        </informacoesAleatorias>
+    </produto>
+    <produto>
+        <nome>Produto 4</nome>
+        <quantidade>50</quantidade>
+        <cor>Amarelo</cor>
+        <espessura>2mm</espessura>
+        <informacoesAleatorias>
+            <marca>Marca D</marca>
+            <codigoDeBarras>2233445566778</codigoDeBarras>
+        </informacoesAleatorias>
+    </produto>
+    <produto>
+        <nome>Produto 5</nome>
+        <quantidade>30</quantidade>
+        <cor>Preto</cor>
+        <espessura>8mm</espessura>
+        <informacoesAleatorias>
+            <marca>Marca E</marca>
+            <codigoDeBarras>3344556677889</codigoDeBarras>
+        </informacoesAleatorias>
+    </produto>
+</produtos>

@@ -1,37 +1,34 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const newProduct = document.getElementById('list-container');
+    const btn = document.getElementById('meth');
+    const listadosDiv = document.getElementById('listados');
+    const listadosContainer = document.getElementById('list-container')
 
-    function createDiv(parentId, newDivId, newDivContent = '') {
-        var parentElement = document.getElementById(parentId);
-        if (parentElement) {
-            var newDiv = document.createElement('div');
-            newDiv.id = newDivId;
-            newDiv.innerHTML = newDivContent;
-            parentElement.appendChild(newDiv);
-        } else {
-            console.error('Elemento pai não encontrado com o ID:', parentId);
-        }
+    function ler_xml() {
+        let url = "bd.xml"
+        $.ajax(url)
+            .done(function(xml) {
+                $(xml).find("produtos").each(function() {
+                    $("#list-container").append('<div class= "produtos">    <p class = "kak"> $ { $(this).find("").text() } </p></div>');
+
+                })
+            })
+            .fail(function() {
+                alert("erro ao xml");
+            })
     }
 
-    window.onload = function() {
-        createDiv('container', 'newDiv', 'Este é o conteúdo da nova div');
-    };
+    listadosContainer.addEventListener('DOMContentLoaded', ler_xml);
 
-document.getElementById('add-product-button').addEventListener('click', function() {
-    const productContainer = document.getElementById('product-container');
+    function mamas() {
+        alert("Copiando conteúdo");
 
-    // Cria uma nova div para o produto
-    const newProduct = document.createElement('div');
-    newProduct.classList.add('product');
+        const newDiv = document.createElement('div');
 
-    // Adiciona conteúdo à nova div de produto
-    newProduct.innerHTML = `
-        <h3>Produto Novo</h3>
-        <p>Descrição do produto</p>
-    `;
+        newDiv.innerHTML = listadosDiv.innerHTML;
 
-    // Adiciona a nova div de produto ao container
-    productContainer.appendChild(newProduct);
-});
+        newDiv.className = listadosDiv.className;
 
+        listadosContainer.appendChild(newDiv);
+    }
+    btn.addEventListener('click', mamas);
 });
