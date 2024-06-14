@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <produtos>
     <produto>
-        <nome>Produto 1</nome>
+        <nome>Chapa MDP</nome>
         <quantidade>10</quantidade>
-        <cor>Azul</cor>
+        <cor>Branco</cor>
         <espessura>5mm</espessura>
         <descrição>
             <marca>Marca A</marca>
             <codigoDeBarras>1234567890123</codigoDeBarras>
         </descrição>
     </produto>
-    <produto>
-        <nome>Produto 2</nome>
+    <produto > 
+        <nome> OSB </nome>
         <quantidade>25</quantidade>
-        <cor>Vermelho</cor>
+        <cor>Marrom</cor>
         <espessura>3mm</espessura>
         <informacoesAleatorias>
             <marca>Marca B</marca>
@@ -21,9 +21,9 @@
         </informacoesAleatorias>
     </produto>
     <produto>
-        <nome>Produto 3</nome>
+        <nome>Compensado</nome>
         <quantidade>15</quantidade>
-        <cor>Verde</cor>
+        <cor>Cinza</cor>
         <espessura>10mm</espessura>
         <informacoesAleatorias>
             <marca>Marca C</marca>
@@ -31,7 +31,7 @@
         </informacoesAleatorias>
     </produto>
     <produto>
-        <nome>Produto 4</nome>
+        <nome>Chapa MDF</nome>
         <quantidade>50</quantidade>
         <cor>Amarelo</cor>
         <espessura>2mm</espessura>
