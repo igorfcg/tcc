@@ -5,9 +5,12 @@
       align-items: left; /* Centraliza os itens horizontalmente */
       padding: 20px;
       width: 243px;
-      
+      border-color: #863411;
+      border-width: 2px;
 }
 .box {
+  
+  gap: 53px;
   background-color: #6d6a67;
   color: white;
   padding: 20px;
@@ -20,31 +23,38 @@
 }
 .clientes{
 
-  background-color: #c46404;
+  background-color: #863411  ;
 display: flex;
 flex-direction: column; /* Define a direção dos itens como coluna (vertical) */
 justify-content: flex-end; /* Alinha os itens à direita */
 align-items: right; /* Centraliza os itens horizontalmente */
 padding: 20px;
 width: 243px;
-border-radius: 4%;
 position:absolute;
 right: 0;
 top: 0;
 margin-top: 9cap;
+margin-right: 1.6cap;
+border-radius: 10px;
+
 }
 
-.inova{
+.inova {
   width: 195px;
-height: 219px;
-
-
-gap: 0px;
-opacity: 0px;
-margin-top: 5cap;
-margin-left: 30cap;
-
+  height: 219px;
+  display: block; /* Definindo a imagem como bloco para alinhar corretamente */
+  margin-left: auto;
+  margin-right: auto; /* Centraliza a imagem horizontalmente */
 }
+.container-inova {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  margin-top: 8cap;
+  margin-left: 30cap;
+}
+
+
 .sas {
   background-color: #6d6a67;
   color: white;
@@ -59,6 +69,11 @@ margin-left: 30cap;
   display:flex;
 
 }
+
 .bemvindo {
-  display: flex;
+  display: block; /* Definindo o texto como bloco */
+  margin-top: 10px; /* Define a margem de 10px acima do texto */
+  text-align: center; /* Centraliza o texto horizontalmente */
+  font-size: 15px;
+  font-family:"Montserrat", sans-serif;
 }

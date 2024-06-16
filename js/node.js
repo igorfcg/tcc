@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const listadosContainer = document.getElementById('list-container')
          let url = '../dados/bd.xml'
         $.ajax({
-            url: url, // Substitua pelo seu URL real
+            url: url, 
             method: 'GET',
             dataType: 'xml'
         })

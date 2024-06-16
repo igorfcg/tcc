@@ -1,26 +1,26 @@
 
   .content{
-    width: 1040px;
-
+    margin: 0;
     opacity: 0px;
-    margin: 30vh;
     justify-content: center;
     justify-self: center;
     display: flex;
   
   }
   .box {
-    background-color: #ca841a;
+
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+      position: relative; 
+      background-color: #FF4D00D9;
     color: white;
-    margin-top: 40vh;
-    margin: 40px;/* Espaçamento entre as caixas */ 
-    width: 520px;
-    height: 175px;
-    align-items: center;
-    border-radius: 12px;
-    opacity: 0px;
-    text-align: center;
-    text-decoration: none; /* Remove sublinhado do link */
+    margin-top: 25vh;
+    margin-inline-end: 15vh;
+    width: 60vh;
+    height: 20vh;
+    border-radius: 1vh;
+    text-decoration: none; 
     font-size: 5vh ;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Montserrat", sans-serif;
   }

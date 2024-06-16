@@ -1,20 +1,28 @@
 .busca{
-
     background-color: aliceblue;
     color: black;
     animation: none;
-    width: 30cap;
+    width: 22cap;
+    height: 5vh;
+    border-radius: 1vh;
+    font-size: 22px;
+    font-family: "Montserrat", sans-serif;
+}
+.fa-solid fa-magnifying-glass{
+    height: 20vh;
 }
 .buscab{
     animation: none;
-    
+    width: 50px;
 }
 .listados{
     border-radius: 10px;
    background-color: orange;
     width: 10vh;
+    border: none;
 }
 #list-container {
+  
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -23,11 +31,11 @@
     border: 1px solid #ccc;
     background-color: rgb(0, 0, 0);
     padding: 10px;
-    height: 20cap;
+    height: 45cap;
     width: 35cap;
     -ms-overflow-style: none;  /* IE e Edge */
     scrollbar-width: none;     /* Firefox */
-    
+
     }
     .saymyname, .is{
         width: 28cap;
@@ -43,14 +51,12 @@
         font-size: 2cap;
     }
     .tupac{
-        background-color: rgb(28, 100, 6);
         width: 31cap;
         border-radius: 10px;
         background: linear-gradient(to bottom, #D7650B 21.7%, #383838 2%);
-        padding: 10px;
         margin: 0px;
         border: 1px solid #ccc;
-        margin: 0;
+
     padding: 0;
     box-sizing: border-box;
     }
