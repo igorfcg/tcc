@@ -3,10 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     color: aliceblue;
-    background-color: black;
+    background-color: #0A0403;
     max-width: 1920px;
     max-height: 1080px;
-
+/* Rectangle 1 */
   }
   body{
      height: 100vh;
