@@ -3,16 +3,17 @@
     padding: 0;
     box-sizing: border-box;
     color: aliceblue;
-    background-color: #0A0403;
+    
     max-width: 1920px;
     max-height: 1080px;
-/* Rectangle 1 */
   }
   body{
+    background-color: #0A0403;
      height: 100vh;
-    display: block;
-    justify-content: center;
+    display: flex;
     justify-items: center;
+    flex-direction: column;
+
   }
   .logo{
     color: rgb(238, 239, 240);
@@ -51,7 +52,7 @@
   }
   .lista li{
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 15px;
   
   }
   header{
@@ -67,3 +68,65 @@
     display: flex;
     
   }
+  
+ 
+  .darkmode{
+    background-color: rgb(71, 65, 65);
+   width: 10vh;
+   height: 5vh;
+   border-radius: 1vh;
+   cursor: pointer;
+   position: relative;
+ }
+ .darkmode .but{
+  background-color: rgb(0, 0, 0);
+  width: 5vh;
+  height: 5vh;
+  border-radius: 1vh;
+  transform: scale(.9);
+  position: absolute;
+  left: 0;
+  transition: 0.5s;
+
+}
+.darkmode.dark .but{
+ left: 5vh;
+ background-color: #ffffff;
+}
+ 
+body.dark {
+  background-color:#C8C8C8;
+  color: #0A0403;
+  
+  h1{
+    color: #0A0403;
+  }
+  a{
+    color: #0A0403;
+  }
+  header{
+    background-color: white;
+  }
+  .box, .sas {
+    background-color: #938F8F;
+    color: #0A0403;
+  }
+  .bemvindo{
+    color: #0A0403;
+  }
+  .bo{
+    background-color: #A05230;
+  }
+  .listcontainer{
+    background-color: #C8C8C8;
+  }
+  .tupac{
+    background: linear-gradient(to bottom, #D7650B 21.7%, #ffffff 2%);
+    
+  }
+  .saymyname{
+    color: #0A0403;
+  }
+  
+  
+}

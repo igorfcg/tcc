@@ -2,14 +2,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         alert("Copiando conteúdo");
         
-        
-        // const newDiv = document.createElement('div');
-
-        // newDiv.innerHTML = listadosDiv.innerHTML;
-
-        // newDiv.className = listadosDiv.className;
-
-        // listadosContainer.appendChild(newDiv);
         const listadosContainer = document.getElementById('list-container')
          let url = '../dados/bd.xml'
         $.ajax({

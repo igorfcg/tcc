@@ -1,0 +1,109 @@
+
+body{
+    align-items: center;
+
+}
+.buscac{
+
+    width: 50vh;
+    height: 5vh;
+    border-radius: 1cap;
+    position: relative;
+    
+}
+.compras{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10%;
+    display: flex;
+    padding: 20px; /* Aumenta o espaço interno da div */
+    font-size: 18px; /* Aumenta o tamanho do texto */
+}
+.compras input[type="text"] {
+    width: 300px; /* Aumenta a largura do campo de texto */
+    height: 40px; /* Aumenta a altura do campo de texto */
+    font-size: 16px; /* Aumenta o tamanho do texto no input */
+    padding: 5px 10px; /* Adiciona espaço interno */
+}
+.compras button.buscacompra {
+    font-size: 18px; /* Aumenta o tamanho do texto do botão */
+    padding: 10px 20px; /* Aumenta o espaço interno do botão */
+    height: 40px; /* Ajusta a altura do botão */
+}
+.compras i {
+    font-size: 24px; /* Aumenta o tamanho dos ícones */
+    margin: 0 10px; /* Adiciona espaço ao redor dos ícones */
+}
+.buscacompra{
+    background-color: rgba(171, 161, 161, 1);
+    color: black;
+    
+    
+}
+.monstro{
+    text-align: center;
+   
+    border-radius: 10cap;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 87.8cap;
+    height: 80px;
+    background-color: orange;
+    display: flex; /* Organiza as labels em uma linha */
+    justify-content: space-between; /* Distribui as labels igualmente com espaço entre elas */
+    align-items: center; /* Alinha as labels verticalmente ao centro */
+    margin-bottom: 20px; /* Adiciona espaço abaixo do grupo de labels */
+}
+.monstra{
+    text-align: center;
+    -ms-overflow-style: none;  /* IE e Edge */
+    scrollbar-width: none;   
+    border-radius: 2cap;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 87.8cap;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    display: flex; /* Organiza as labels em uma linha */
+    justify-content: space-between; /* Distribui as labels igualmente com espaço entre elas */
+    align-items: center; /* Alinha as labels verticalmente ao centro */
+    margin-bottom: 20px; /* Adiciona espaço abaixo do grupo de labels */
+}
+.monstra label {
+    color: black; /*deixa o texto negrão*/
+    font-size: 20px; /* Aumenta o tamanho do texto */
+    padding: 40px; /* Adiciona espaço interno ao redor do texto */
+    margin-right: 20px; /* Espaço entre as labels (pode ser ajustado) */
+
+}
+.monstro label {
+    color: black; /*deixa o texto negrão*/
+    font-size: 30px; /* Aumenta o tamanho do texto */
+    padding: 40px; /* Adiciona espaço interno ao redor do texto */
+    margin-right: 20px; /* Espaço entre as labels (pode ser ajustado) */
+
+}
+.tabela{
+   
+    border: 1px solid #ccc;
+        width: 90cap;
+        height: 74.7cap;
+        overflow-y: auto;
+   
+}
+
+.tabInicio{
+   padding: 3px;
+    width: 100cap;
+    border-collapse: collapse;
+    border-radius: 100px;
+}
+
+
+.comeco{
+   
+    padding: 100px;
+}
+

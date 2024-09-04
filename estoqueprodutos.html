@@ -11,9 +11,11 @@
     <script src="./js/node.js">  </script>
     <script src="./js/lerxml.js"></script>
     <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="/js/darkmode.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Moul&display=swap" rel="stylesheet">
+    <script src="render.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -32,21 +34,24 @@
               <li>
                 <a href="" class="non"><i class="fa-solid fa-right-from-bracket"></i>log out</a>
             </li>
+          
+            <div class="darkmode" id="darkmode"><div class="but"></div></div>
+        
             </nav>
         </div>
         <div class="social">
-            <a href="    https://www.youtube.com/watch?v=4Ft_Ts4Z3uo&pp=ygUOamFpbHNvbiBtZW5kZXM%3D ">  <button><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></button></a>
+            <a href="https://www.youtube.com/watch?v=4Ft_Ts4Z3uo&pp=ygUOamFpbHNvbiBtZW5kZXM%3D">  
+                <button><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></button>
+            </a>
         </div>
         </div>
-  </header>
+    </header>
     <h1 class="comsubiveis">Produtos</h1>
     <div class="materiais">
-    <input class="busca" placeholder="digite o nome do material..." type="text">
-    <a id="meth" class="buscab"><i class="fa-solid fa-magnifying-glass"></i></a>
-        <div id="list-container">
-
-        </div>
+        <input class="busca" placeholder="digite o nome do material..." type="text">
+        <a id="meth" class="buscab"><i class="fa-solid fa-magnifying-glass"></i></a>
+        <div class="list-container" id="list-container"></div>
     </div>
-  
- </body>
+</body>
 </html>
+<script src="index.js"></script>
